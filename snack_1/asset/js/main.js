@@ -59,3 +59,9 @@ const cars = [
         alimentazione: 'metano',
     },
 ]
+
+
+
+const carBenzina = cars.filter((benzina)=> {
+    return cars.alimentazione = benzina
+})
