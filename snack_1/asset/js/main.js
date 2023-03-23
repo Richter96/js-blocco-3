@@ -61,7 +61,12 @@ const cars = [
 ]
 
 
+cars.forEach(car => {
+    console.log(car.alimentazione)
+    
+});
 
 const carBenzina = cars.filter((benzina)=> {
     return cars.alimentazione = benzina
 })
+console.log(carBenzina)
