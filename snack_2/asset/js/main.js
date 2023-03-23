@@ -14,13 +14,12 @@ const nameTeam = [
 
 console.log(nameTeam)
 
-const tuttoMinuscolo = nameTeam.map(team => {
-    return team.toLowerCase()
-});
-console.log(tuttoMinuscolo)
+const newArray = nameTeam.map(name => {
+    const lowerCaseWord = name.toLowerCase()
+    console.log(lowerCaseWord)
+    const firstChar = lowerCaseWord.charAt(0).toUpperCase
+    console.log(firstChar)
 
-const inizialeMaiuscola = tuttoMinuscolo.map(element=>{
-    return element.charAt(0)
-})
+    const sliceWord = 
 
-
+};
