@@ -66,7 +66,7 @@ cars.forEach(car => {
     const carBenzina = car.filter(checkBenzina);
     function checkBenzina(car) {
         if(car.alimentazione = benzina)
-        
+
     }
 });
 
