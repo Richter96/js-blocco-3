@@ -10,8 +10,52 @@ Infine stampa separatamente i 3 array. */
 const cars = [
     {
         marca: 'ford',
+        modello: 'vignale',
+        alimentazione: 'benzina',
+    },
+    {
+        marca: 'tesla',
+        modello: 'model 3',
+        alimentazione: 'elettrica',
+    },
+    {
+        marca: 'tesla',
+        modello: 'model y',
+        alimentazione: 'elettrica',
+    },
+    {
+        marca: 'tesla',
+        modello: 'model x',
+        alimentazione: 'elettrica',
+    },
+    {
         marca: 'ford',
+        modello: 'focus',
+        alimentazione: 'diesel',
+    },
+    {
         marca: 'ford',
-
-    }
+        modello: 'fiesta',
+        alimentazione: 'gpl',
+    },
+    {
+        marca: 'audi',
+        modello: 'A5',
+        alimentazione: 'benzina',
+    },
+    {
+        marca: 'opel',
+        modello: 'zafira',
+        alimentazione: 'metano',
+    },
+    {
+        marca: 'cupra',
+        modello: 'formentor',
+        alimentazione: 'diesel',
+    },
+    {
+        marca: 'opel',
+        modello: 'zafira',
+        alimentazione: 'metano',
+    },
 ]
