@@ -18,3 +18,9 @@ const tuttoMinuscolo = nameTeam.map(team => {
     return team.toLowerCase()
 });
 console.log(tuttoMinuscolo)
+
+const inizialeMaiuscola = tuttoMinuscolo.map(element=>{
+    return element.charAt(0)
+})
+
+
